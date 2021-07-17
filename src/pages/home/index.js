@@ -1,12 +1,12 @@
 import React, { Fragment } from 'react'
-import Navbar from '../../components/Navbar'
-import Slider from '../../components/Slider'
-import Vitrine from '../../components/Vitrine'
+import Navbar from '../../components/navbar'
+import CarrouselBanner from '../../components/CarrouselBanner'
+import Vitrine from '../../components/vitrine'
 
 const HomePage = () => (
   <Fragment>
     <Navbar />
-    <Slider />
+    <CarrouselBanner />
     <Vitrine />
   </Fragment>
 )

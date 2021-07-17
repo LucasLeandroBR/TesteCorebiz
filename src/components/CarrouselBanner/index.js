@@ -4,7 +4,7 @@ import '@splidejs/splide/dist/css/themes/splide-default.min.css'
 import Banner from '../../assets/images/Banner.png'
 import Banner2 from '../../assets/images/Banner2.jpg'
 
-export default class Slider extends React.Component {
+export default class CarrouselBanner extends React.Component {
   render() {
     return (
       <div className="max-w-7xl mx-auto">
