@@ -1,0 +1,36 @@
+.productCard {
+    @apply p-2 border border-gray-200;
+}
+
+.productCard .title {
+    @apply text-2xl 
+}
+
+#card {
+
+}
+
+.card {
+    @apply p-2 border border-gray-200 !important;
+}
+
+.card .card__title {
+    @apply text-2xl    
+}
+
+.card .card__description {
+    @apply text-2xl    
+}
+.card .card__footer {
+    @apply text-2xl    
+}
+
+
+.card.card-success {
+    @apply border-green-200;
+}
+
+
+input[type="text"]:focus {
+
+}
