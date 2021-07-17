@@ -1,6 +1,4 @@
-import React, { Fragment } from 'react';
-// import { Notification, Section } from 'rbx'
-
+import React, { Fragment } from 'react'
 import Routes from './routes'
 
 function App() {
@@ -8,7 +6,7 @@ function App() {
     <Fragment>
       <Routes />
     </Fragment>
-  );
+  )
 }
 
-export default App;
+export default App

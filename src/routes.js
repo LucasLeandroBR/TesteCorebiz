@@ -1,6 +1,6 @@
 import React from 'react'
-import { BrowserRouter, Switch, Route } from 'react-router-dom';
-import Home from './pages/home'
+import { BrowserRouter, Switch, Route } from 'react-router-dom'
+import Home from './pages/Home'
 
 const Routes = () => (
   <BrowserRouter>
@@ -10,4 +10,4 @@ const Routes = () => (
   </BrowserRouter>
 )
 
-export default Routes;
+export default Routes

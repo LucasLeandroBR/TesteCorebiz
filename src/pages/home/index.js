@@ -1,16 +1,14 @@
 import React, { Fragment } from 'react'
-import Navbar from '../../components/navbar'
-import Header from '../../components/header'
-import Vitrine from '../../components/vitrine'
-
+import Navbar from '../../components/Navbar'
+import Slider from '../../components/Slider'
+import Vitrine from '../../components/Vitrine'
 
 const HomePage = () => (
   <Fragment>
     <Navbar />
-    <Header />
+    <Slider />
     <Vitrine />
   </Fragment>
-
 )
 
 export default HomePage
